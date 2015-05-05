@@ -8,11 +8,15 @@
 
 import UIKit
 
-class sampleviewcontroller1: UIViewController {
+class myimageviewController: UIViewController {
     
+    @IBOutlet weak var imageview: UIImageView!
+
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageview.backgroundColor = UIColor.redColor();
+        
         // Do any additional setup after loading the view, typically from a nib.
         
     }

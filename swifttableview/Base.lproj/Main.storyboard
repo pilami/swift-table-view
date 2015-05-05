@@ -39,6 +39,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="LFB-ld-NaE"/>
+                        <barButtonItem title="Image" id="HtJ-Ua-vm8">
+                            <connections>
+                                <segue destination="5lx-1b-ori" kind="show" id="Bmp-ke-nMu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="0SG-LV-4Ou"/>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="Home" id="e9D-8U-vrK"/>
                     <connections>
                         <outlet property="tableView" destination="UGJ-rv-gNw" id="2xP-e7-fP3"/>
@@ -47,6 +56,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1437" y="-16"/>
+        </scene>
+        <!--Myimageview Controller-->
+        <scene sceneID="ljc-jS-FMD">
+            <objects>
+                <viewController id="5lx-1b-ori" customClass="myimageviewController" customModule="swifttableview" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iMa-se-Npw"/>
+                        <viewControllerLayoutGuide type="bottom" id="zVb-78-Qf6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cxq-9g-buK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-YU-LcO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageview" destination="dd0-YU-LcO" id="zXI-Fs-hE7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tC7-Di-ynk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="-151"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WeM-wc-iIX">

@@ -13,7 +13,7 @@
 		8278468B1AF9356C0093E2EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8278468A1AF9356C0093E2EC /* Images.xcassets */; };
 		8278468E1AF9356C0093E2EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8278468C1AF9356C0093E2EC /* LaunchScreen.xib */; };
 		8278469A1AF9356C0093E2EC /* swifttableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827846991AF9356C0093E2EC /* swifttableviewTests.swift */; };
-		827846AC1AF939BF0093E2EC /* sampleviewcontroller1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827846AB1AF939BF0093E2EC /* sampleviewcontroller1.swift */; };
+		827846AC1AF939BF0093E2EC /* myimageviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827846AB1AF939BF0093E2EC /* myimageviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		827846931AF9356C0093E2EC /* swifttableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swifttableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		827846981AF9356C0093E2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		827846991AF9356C0093E2EC /* swifttableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifttableviewTests.swift; sourceTree = "<group>"; };
-		827846AB1AF939BF0093E2EC /* sampleviewcontroller1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sampleviewcontroller1.swift; sourceTree = "<group>"; };
+		827846AB1AF939BF0093E2EC /* myimageviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myimageviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				827846831AF9356C0093E2EC /* AppDelegate.swift */,
 				827846851AF9356C0093E2EC /* ViewController.swift */,
 				827846871AF9356C0093E2EC /* Main.storyboard */,
-				827846AB1AF939BF0093E2EC /* sampleviewcontroller1.swift */,
+				827846AB1AF939BF0093E2EC /* myimageviewController.swift */,
 				8278468A1AF9356C0093E2EC /* Images.xcassets */,
 				8278468C1AF9356C0093E2EC /* LaunchScreen.xib */,
 				827846811AF9356C0093E2EC /* Supporting Files */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				827846861AF9356C0093E2EC /* ViewController.swift in Sources */,
-				827846AC1AF939BF0093E2EC /* sampleviewcontroller1.swift in Sources */,
+				827846AC1AF939BF0093E2EC /* myimageviewController.swift in Sources */,
 				827846841AF9356C0093E2EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +411,7 @@
 				8278469F1AF9356C0093E2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		827846A01AF9356C0093E2EC /* Build configuration list for PBXNativeTarget "swifttableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				827846A21AF9356C0093E2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
